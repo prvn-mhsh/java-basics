@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://web-slate.github.io/java-basics/basics/intro">
+        <link rel="canonical" href="https://web-slate.github.io/java-basics/basics/simple_example">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../recursion">
       
       
-        <link rel="next" href="../recursion/basic_recursion">
+        <link rel="next" href="../statements/else_if">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Intro - Webslate - Java Basics</title>
+        <title>Simple Example - Webslate - Java Basics</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#introduction" class="md-skip">
+        <a href="#simpleexamplejava" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Intro
+              Simple Example
             
           </span>
         </div>
@@ -671,19 +671,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../intro" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -692,7 +683,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -791,10 +781,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../simple_example" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Simple Example
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -803,6 +811,33 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#simpleexamplejava" class="md-nav__link">
+    <span class="md-ellipsis">
+      SimpleExample.java
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2057,8 +2092,23 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#simpleexamplejava" class="md-nav__link">
+    <span class="md-ellipsis">
+      SimpleExample.java
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -2073,35 +2123,20 @@
                   
 
 
-<h1 id="introduction">Introduction</h1>
-<ol>
-<li>Java programming language created in 1995.</li>
-<li>Owned by Oracle, and more than 3 billion devices run Java.</li>
-</ol>
-<h1 id="why-use-java">Why Use Java?</h1>
-<ol>
-<li>Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)</li>
-<li>Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs</li>
-</ol>
-<h1 id="things-you-should-know">Things you should know</h1>
-<ol>
-<li>Mostly Return type will come before the name.</li>
-</ol>
-<pre><code>void main(String[] args) {
-return main(return type paramName) {}
+  <h1>Simple Example</h1>
+
+<h2 id="simpleexamplejava">SimpleExample.java</h2>
+<pre><code class="language-java">package basics;
+
+public class SimpleExample {
+  public static void main(String[] args) {
+    // Below accept parameter and print along with &quot;Java Basics&quot;.
+    System.out.println(&quot;Java Basics &quot; + args[0]); // Here args[0] meant that its first word.
+  }
+}
+
+// javac basics/Basics.java &amp;&amp; java basics.Basics hello
 </code></pre>
-<ol>
-<li>you can check your java compiler version by <code>javac -version</code></li>
-<li>you can check your java version by <code>java -version</code></li>
-<li>First compile your java code by <code>javac -verbose basics/Basics.java</code>, After compilation, this will generate java.class file along with package and basic statements.</li>
-<li>Class name should always start with an <strong>uppercase first letter</strong>. Run your java class after compiled by <code>java basics.Basics</code></li>
-<li>The name of the java file must match the class name.</li>
-<li>Any code inside the main() method will be executed.</li>
-<li>You should also note that each code statement must end with a semicolon (;).</li>
-<li>Text must be wrapped inside double quotations marks "". <code>System.out.println("Java Basics ");</code></li>
-<li>You can use the <code>+</code> character for concatenation to add a variable to another variable:</li>
-<li>Variable Names can also begin with "$" and "_"</li>
-</ol>
 
 
 
