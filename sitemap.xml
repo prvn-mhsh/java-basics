@@ -5,6 +5,14 @@
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
+         <loc>https://web-slate.github.io/java-basics/advanced/annotations_reflections</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://web-slate.github.io/java-basics/advanced/jdbc/db</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
          <loc>https://web-slate.github.io/java-basics/algorithms/introduction</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
@@ -162,6 +170,38 @@
     </url>
     <url>
          <loc>https://web-slate.github.io/java-basics/collections_framework/introduction</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://web-slate.github.io/java-basics/collections_framework/array_list/introduction</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://web-slate.github.io/java-basics/collections_framework/array_list/operations</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://web-slate.github.io/java-basics/collections_framework/hash_map/introduction</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://web-slate.github.io/java-basics/collections_framework/hash_map/operations</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://web-slate.github.io/java-basics/collections_framework/hash_set/introduction</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://web-slate.github.io/java-basics/collections_framework/hash_set/operations</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://web-slate.github.io/java-basics/collections_framework/linked_list/introduction</loc>
+         <lastmod>2024-10-25</lastmod>
+    </url>
+    <url>
+         <loc>https://web-slate.github.io/java-basics/collections_framework/linked_list/operations</loc>
          <lastmod>2024-10-25</lastmod>
     </url>
     <url>
